@@ -1,0 +1,135 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+en:
+  static_pages:
+
+    home:
+      title: "Home"
+      text-1: "This is the home page for the"
+      text-2: "Rails Tutorial"
+      text-3: "sample application"
+      text-4: "Sign up to!"
+      text-5: "Welcome to the Sample App"
+      sample_app: "sample app"
+      text-6: "Rails logo"
+    help:
+      title: "Help"
+      text-1: "This is the home page for the"
+      text-2: "Rails Tutorial help page"
+      text-3: "To get help on this sample app, see the"
+      text-4: "Get help on the Ruby on Rails Tutorial at the"
+      text-5: "Ruby on Rails Tutorial"
+
+    about:
+      title: "About"
+      text-1: "book"
+      text-2: "screencast series"
+      text-3: "This is the sample application for the tutorial."
+      text-4: "Tutorial"
+      text-5: "is a"
+      text-6: "and"
+      text-7: "to teach web development with"
+      text-8: "Tutorial"
+    contact:
+      title: "Contact"
+      text-1 : "Contact the Ruby on Rails Tutorial about the sample app at the"
+      text-2 : "contact page"
+    signup:
+      title: "Signup"
+
+  users:
+    new:
+      title: "Sign up"
+      text-1: "This will be a signup page for new users."
+      text-3: "Create my account"
+      text-4: "Password Confirmation"
+      text-5: "Name"
+      text-6: "Email"
+      text-7: "Password"
+    edit:
+      title: "Edit user"
+      text-1: "Update your profile"
+      text-2: "Name"
+      text-3: "Email"
+      text-4: "Password"
+      text-5: "Password Confirmation"
+      text-6: "Save changes"
+    form:
+      text-1: "Name"
+      text-2: "Email"
+      text-3: "Password"
+      text-4: "Password Confirmation"
+    index:
+      title: "All Users"
+      delete : "Delete"
+      confirm: "You sure?"
+      success_msg: "User deleted"
+      error_msg: "Deleted fail"
+  shared:
+    error_messages:
+      contains: "The form contains"
+      remember: "Remember me on this computer"
+  layout:
+    header:
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
+
+  sessions:
+    new:
+      title: "Log in"
+      text-1: "Email"
+      text-2: "Password"
+      text-3: "Sign up now!"
+      text-4: "New user?"
+      text-5: "Remember me on this computer"
+      account_not_actived: "Account not activated."
+      check_email: "Please check your email to activate your account."
+      forgot_password: "(forgot password)"
+      error_messages: "Invalid email/password combination"
+  base_title: "Ruby on rails"
+  text-3: "Ruby on Rails Tutorrial"
+  text-1: "Michael Hartl"
+  text-2: "News"
+  text-4: "The"
+  text-5: "by"
+  welcome_to_app: "Welcome to the Sample App!"
+  invalid: "Invalid email/password combination"
+  nouser: "Not find request user"
+  profileup: "Profile updated"
+  pleaselog: "Please log in."
+  userdeleted: "User deleted"
+  accountac: "Account activated!"
+  account_invalid: "Invalid activation link"
+  acctivation: "Account activation"
+  resetpassword: "Reset Password"

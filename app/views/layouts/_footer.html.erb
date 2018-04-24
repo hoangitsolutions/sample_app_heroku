@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t "text-4" %> <a href="http://www.railstutorial.org/"><%= t "text-3" %></a>
+   <%= t "text-5" %> <a href="http://www.michaelhartl.com/"><%= t "text-1" %></a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.title"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.title"), contact_path %></li>
+      <li><a href="http://news.railstutorial.org/"><%=t "text-2"%></a></li>
+    </ul>
+  </nav>
+</footer>

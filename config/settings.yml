@@ -1,0 +1,10 @@
+user:
+  email_length: 255
+  password_length: 6
+  name_length: 50
+  size: 80
+  user_size: 50
+  time: 2
+  number_items_per_page: 5
+s:
+  remember: 1
